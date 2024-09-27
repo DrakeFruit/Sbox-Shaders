@@ -1,0 +1,87 @@
+{
+  "__guid": "a8c0f27a-9b15-4d77-9ef5-34a7c7f16aed",
+  "GameObjects": [
+    {
+      "__guid": "0d5754d4-6bba-4e42-8d2f-59cc47fbeb84",
+      "Flags": 0,
+      "Name": "Camera",
+      "Position": "-1503.056,640,62.15305",
+      "Rotation": "0,0,-0.2947003,0.9555898",
+      "Tags": "maincamera",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "5154d3de-74ba-4594-ad02-be9a1a579404",
+          "BackgroundColor": "0.33333,0.46275,0.52157,1",
+          "ClearFlags": "All",
+          "FieldOfView": 60,
+          "IsMainCamera": true,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 100000,
+          "ZNear": 10
+        },
+        {
+          "__type": "TestPostProcess",
+          "__guid": "c0f76efc-de14-4ffc-86a8-e5a18ea47343",
+          "FogColor": "1,1,1,1",
+          "FogDensity": 1.8000033,
+          "FogOffset": 0.05
+        }
+      ]
+    },
+    {
+      "__guid": "98c4bd8a-9592-4f36-9aea-991e92c8cc45",
+      "Flags": 0,
+      "Name": "Map",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.MapInstance",
+          "__guid": "62fff497-e56f-4602-aa83-e56add038b74",
+          "__version": 1,
+          "EnableCollision": true,
+          "MapName": "facepunch.construct23",
+          "NoOrigin": false,
+          "OnMapLoaded": null,
+          "OnMapUnloaded": null,
+          "UseMapFromLaunch": false
+        }
+      ],
+      "Children": []
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 60,
+    "NetworkInterpolation": true,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "minimal",
+  "Description": "",
+  "ResourceVersion": 1,
+  "__references": [],
+  "IsValid": true,
+  "__version": 1
+}
